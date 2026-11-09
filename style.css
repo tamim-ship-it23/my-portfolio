@@ -91,6 +91,29 @@ header {
     margin-bottom: 25px;
 }
 
+
+.hero-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile-icon {
+    width: 280px;
+    height: 280px;
+    border-radius: 50%;
+    background: linear-gradient(135deg, #38bdf8, #2563eb);
+    border: 5px solid #38bdf8;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 120px;
+    box-shadow: 0 10px 35px rgba(56, 189, 248, 0.3);
+}
+
+
 .btn {
     display: inline-block;
     background: #38bdf8;
